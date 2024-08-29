@@ -1,21 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-<meta charset="UTF-8">
-<title>Vardhan protfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your personal portfolio website.">
+    <link rel="stylesheet" href="style.css">
+    <title>TELUGU DESAM PARTY</title>
 </head>
 <body>
-<h1>Vardhan Yu's protfolio </h1>
-<h2>I am web Developer</h2>
-<hr />
-<h3><a href="./public/movie-ranking.html">Movie Ranking Project</a></h3>
-<img src="./assets/images/movie-ranking.png" height="200" alt="movie ranking project preview"/>
-<h3><a href="./public/birthday-invite.html">Birthday Invite Project</a></h3>
-<img src="./assets/images/birthday-invite.png" height="200" alt="birthday invite project preview"/>
-<hr />
-<a href="./public/about.html">About Me</a>
-<a href="./public/contact.html">Contact Me</a>
-</body>
 
+    <!-- Header Section with Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="login.html">login</a></li>
+                <li><a href="register.html">register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>WELCOME TDP NATIONAL PARTY</h1>
+        <p>Hi, I am [Your Name], a [Your Profession/Role]</p>
+        <button>Contact Me</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="https://th.bing.com/th/id/R.5989fac22ed951b8114ffaf72c9ea24a?rik=eaNMo7AybXe%2fxA&riu=http%3a%2f%2fstatic-ai.asianetnews.com%2fimages%2f01dc1mt4dk7sdedn9dbsh8snt4%2ftdp-flag.jpg&ehk=fgkeOz3tiKlJhj%2bYJddtaHuq2tP0VmSqL7ZIasB7hwY%3d&risl=&pid=ImgRaw&r=0" alt="Your Photo">
+        <p>[Brief introduction about yourself]</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <!-- Example Project -->
+        <div class="project">
+            <img src="https://files.prokerala.com/news/photos/imgs/800/tdp-926641.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>[Description of project 1]</p>
+            <a href="project-link">View Project</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>and more...</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit-form-link" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Your Name</p>
+        <a href="https://github.com/yourusername">GitHub</a>
+        <a href="https://twitter.com/yourusername">Twitter</a>
+    </footer>
+
+</body>
 </html>
